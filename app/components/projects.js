@@ -30,7 +30,7 @@ export default function Proj() {
               </Link>
               <div className="px-6 py-4">
                 <Link href={`/projects/${project.id}`}>
-                  <div className="font-bold text-xl mb-2">
+                  <div className="font-bold md:text-xl mb-2">
                     {project.title}
                   </div>
                 </Link>
@@ -40,7 +40,7 @@ export default function Proj() {
               </div>
               <div className="px-6 pt-3 pb-2">
                 {project.technologies.map((tech) => (
-                  <span key={tech.id} className="inline-block bg-rose-300 rounded-full px-3 py-1 text-xs font-semibold text-rose-50 mr-2 mb-2">
+                  <span key={tech.id} className="inline-block bg-rose-300 rounded-full px-2  md:px-3 md:py-1 text-xs font-semibold text-rose-50 mr-2 mb-2">
                     #{tech.tech}
                   </span>
                 ))}

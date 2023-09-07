@@ -19,10 +19,10 @@ export default function Resume() {
             <time className="mb-1 text-sm font-semibold leading-none text-teal-500">
               {role.startDate} - {role.endDate}
             </time>
-            <h3 className="text-lg font-semibold text-pink-400">
+            <h3 className="md:text-lg font-semibold text-pink-400">
               {role.company} | <em>{role.title}</em>
             </h3>
-            <ul className="text-base font-normal text-neutral-600">
+            <ul className="text-sm md:text-base font-normal text-neutral-600">
               {role.responsibilities.map((responsibility, subIndex) => (
                 <li className="list-disc ml-6" key={subIndex}>
                   {responsibility}

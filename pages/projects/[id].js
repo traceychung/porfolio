@@ -44,15 +44,17 @@ export default function Project({ projData }) {
           </Link>
         </div>
         <p>
-          <em className="text-neutral-600">{projData.description}</em>
+          <em className="text-sm md:text-base text-neutral-600">
+            {projData.description}
+          </em>
         </p>
         <br />
-        <h2 className="text-xl font-semibold mb-2 text-neutral-600">
+        <h2 className="text-base md:text-xl font-semibold mb-2 text-neutral-600">
           Responsibilities:
         </h2>
         <ul className="list-disc ml-6">
           {projData.responsibilities.map((responsibility, index) => (
-            <li key={index} className="text-neutral-600">
+            <li key={index} className="text-sm md:text-base text-neutral-600">
               {responsibility}
             </li>
           ))}

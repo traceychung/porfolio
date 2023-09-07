@@ -12,8 +12,6 @@ export const projectData = [
       { id: 7, tech: "BootstrapCSS" },
       { id: 8, tech: "MantineUI" },
       { id: 9, tech: "Caprover" },
-      { id: 10, tech: "Docker" },
-      { id: 11, tech: "Docker" },
     ],
     link: "https://github.com/traceychung/wanderlust",
     description:
