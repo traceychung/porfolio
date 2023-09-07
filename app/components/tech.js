@@ -16,7 +16,6 @@ export default function Tech() {
           {techstackData.map((tech) => (
             <div className="" key={tech.id}>
               <tech.image color={tech.color} className="h-10 w-10" />
-              {/* <p className="invisible lg:visible">{tech.title}</p> */}
             </div>
           ))}
         </div>
