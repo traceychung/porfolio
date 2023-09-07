@@ -7,7 +7,7 @@ export default function About() {
         About Me
       </h1>
       <div className="lg:flex lg:justify-center lg:items-center">
-        <div className="lg:order-2">
+        <div className="lg:order-2 flex justify-center">
           <Player
             autoplay
             loop

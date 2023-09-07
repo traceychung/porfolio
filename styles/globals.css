@@ -22,10 +22,6 @@ a {
   text-decoration: none;
 }
 
-/* a:hover {
-  text-decoration: underline;
-} */
-
 img {
   max-width: 100%;
   display: block;
@@ -39,12 +35,6 @@ img {
     box-shadow: theme('boxShadow.xl');
   }
 }
-
-/* .container {
-  max-width: 36rem;
-  padding: 0 1rem;
-  margin: 3rem auto 6rem;
-} */
 
 .header {
   display: flex;

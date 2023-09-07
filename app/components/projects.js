@@ -6,7 +6,7 @@ import Image from "next/image";
 export default function Proj() {
   return (
     <div>
-      <h1 className="text-3xl font-semibold flex justify-center ">
+      <h1 className="text-3xl font-semibold flex justify-center">
         Top Projects
       </h1>
       <div>
