@@ -4,7 +4,7 @@ import { Player } from "@lottiefiles/react-lottie-player";
 export default function Resume() {
   return (
     <div>
-      <h1 className="text-3xl font-semibold flex justify-center">
+      <h1 className="text-3xl font-semibold flex justify-center text-center">
         Professional Experience
       </h1>
       <Player
