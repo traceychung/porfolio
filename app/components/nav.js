@@ -16,12 +16,11 @@ export default function Nav() {
     <nav className="w-full  top-0 left-0 bg-transparent">
       <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
         <Link href="/" className="flex items-center">
-          <Image
-            src={tlogo}
-            className="h-8 w-11"
-            alt="t-logo"
-          />
-          <span className="self-center text-2xl font-semibold whitespace-nowrap">
+          <Image src={tlogo} className="h-8 w-11" alt="t-logo" />
+          <span
+            className={`${
+              isMobileMenuOpen ? "block" : "hidden"
+            } md:block w-full md:w-auto md:order-1 self-center text-2xl font-semibold whitespace-nowrap`}>
             TRACEY CHUNG
           </span>
         </Link>

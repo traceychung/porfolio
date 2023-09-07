@@ -9,7 +9,7 @@ export default function Tech() {
   return (
     <section>
       <h1 className="text-3xl font-semibold mb-5 flex justify-center">
-        Tech Stack
+        Top Skills
       </h1>
       <div className="">
         <div className="grid grid-cols-3 justify-items-center">
