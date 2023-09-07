@@ -1,6 +1,3 @@
-import { VscMail } from "react-icons/vsc";
-import { VscGithubAlt } from "react-icons/vsc";
-import { LiaLinkedin } from "react-icons/lia"
 import { SiLinkedin } from "react-icons/si";
 import { SiGithub } from "react-icons/si";
 import { SiGmail } from "react-icons/si";

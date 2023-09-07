@@ -1,6 +1,7 @@
 import { projectData } from "@/data/projectData";
 import Link from "next/link";
 import RootLayout from "@/app/layout";
+import Image from "next/image";
 
 export function getAllProjIds() {
   return projectData.map((proj) => {
@@ -34,10 +35,11 @@ export default function Project({ projData }) {
             href={projData.link}
             target="_blank"
             className="flex justify-center">
-            <img
+            <Image
               src={projData.image}
               alt={projData.title}
-              // style={{ width: "500", height: "250px" }}
+              width={780}
+              height={300}
             />
           </Link>
         </div>
@@ -74,7 +76,7 @@ export function getProjectData(id) {
   const matchedProject = projectData.find(project => project.id === id);
 
   if (!matchedProject) {
-    return null; // or some error message JSX
+    return null;
   }
 
   return matchedProject;

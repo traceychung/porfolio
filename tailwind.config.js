@@ -9,7 +9,6 @@ module.exports = {
     extend: {
       backgroundImage: {
         "hero-pattern": "url('/images/background-image.jpg')",
-        // "footer-texture": "url('/img/footer-texture.png')",
         fontFamily: {
           lora: ["var(--font-lora)"],
           sans: ["var(--font-inter)"],

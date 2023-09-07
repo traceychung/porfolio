@@ -1,6 +1,7 @@
 import { projectData } from "@/data/projectData";
 import Link from "next/link";
 import { Player } from "@lottiefiles/react-lottie-player";
+import Image from "next/image";
 
 export default function Proj() {
   return (
@@ -15,17 +16,16 @@ export default function Proj() {
           src="https://lottie.host/afa596c2-d177-45c7-badc-701098f1b13a/C6AK75RW3I.json"
           style={{ height: "300px", width: "300px" }}></Player>
       </div>
-      {/* <div className="grid grid-cols-3"> */}
         {projectData.map((project) => (
           <div key={project.id} className="flex justify-center mb-5 mr-3 ">
             <div className="max-w-xl rounded overflow-hidden shadow-md">
               <Link href={`/projects/${project.id}`}>
-                <img
+                <Image
                   className="w-full"
                   src={project.image}
                   alt={project.title}
-                  height={170}
-                  width={300}
+                  height={300}
+                  width={600}
                 />
               </Link>
               <div className="px-6 py-4">
@@ -40,36 +40,14 @@ export default function Proj() {
               </div>
               <div className="px-6 pt-3 pb-2">
                 {project.technologies.map((tech) => (
-                  <span className="inline-block bg-rose-300 rounded-full px-3 py-1 text-xs font-semibold text-rose-50 mr-2 mb-2">
-                    #{tech}
+                  <span key={tech.id} className="inline-block bg-rose-300 rounded-full px-3 py-1 text-xs font-semibold text-rose-50 mr-2 mb-2">
+                    #{tech.tech}
                   </span>
                 ))}
               </div>
             </div>
           </div>
         ))}
-      {/* </div> */}
     </div>
   );
 }
-
-
-
-          {/* <h1>
-            <Link href={`/projects/${project.id}`}>
-              <h3 className="text-xl font-semibold">{project.title}</h3>
-            </Link>
-          </h1>
-          <Link href={`/projects/${project.id}`}>
-            <img
-              src={project.image}
-              alt={project.title}
-              // height={144}
-              // width={250}
-            />
-          </Link>
-          <p>
-            <em>{project.description}</em>
-          </p>
-          <br />
-        </div> */}
