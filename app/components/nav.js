@@ -20,7 +20,7 @@ export default function Nav() {
           <span
             className={`${
               isMobileMenuOpen ? "block" : "hidden"
-            } md:block w-full md:w-auto md:order-1 self-center text-2xl font-semibold whitespace-nowrap`}>
+            } md:block w-full md:w-auto md:order-1 self-center text-2xl font-semibold whitespace-nowrap md:hover:text-pink-400`}>
             TRACEY CHUNG
           </span>
         </Link>

@@ -14,7 +14,7 @@ export default function Tech() {
       <div className="">
         <div className="grid grid-cols-3 justify-items-center">
           {techstackData.map((tech) => (
-            <div className="" key={tech.id}>
+            <div className="hover:scale-125" key={tech.id}>
               <tech.image color={tech.color} className="h-10 w-10" />
             </div>
           ))}

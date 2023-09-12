@@ -1,5 +1,6 @@
 import { Player } from "@lottiefiles/react-lottie-player";
 import Image from "next/image";
+import { techstackData } from "@/data/techStackData";
 
 export default function About() {
   return (
@@ -24,8 +25,9 @@ export default function About() {
             software engineer.
             <br />
             <br />
-            When I&rsquo;m not coding, you can find me at local craft fairs,
-            bothering my cats, or exploring new places :)
+            When I&rsquo;m not coding, you can find me at local{" "}
+            <strong>craft fairs</strong>, bothering my <strong>cats</strong>, or{" "}
+            <strong>exploring</strong> new places :)
           </p>
         </div>
       </div>
