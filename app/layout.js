@@ -20,7 +20,8 @@ export default function RootLayout({ children, home }) {
       className={`bg-hero-pattern bg-cover bg-center min-h-screen ${inter.className} ${montserrat.className}`}>
       <Nav />
       <div className="lg:grid lg:grid-cols-4 mx-4">
-        <div className="col-start-2 col-span-2">
+      {/* <div className='container'> */}
+        <div className="lg:col-start-2 lg:col-span-2">
           <main>{children}</main>
           {!home && (
             <div className="mb-5">

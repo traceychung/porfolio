@@ -23,7 +23,7 @@ export const projectData = [
       "Used Git for version control and collaborated with cross-functional teams to ensure timely delivery of features and bug fixes",
       "Worked in an agile environment, utilizing Scrum methodology and participating in daily stand-ups, sprint planning, retrospectives, and backlog grooming sessions",
     ],
-    image: "/images/wanderlust.png",
+    image: "/images/wanderlust1.png",
   },
   {
     id: 2,

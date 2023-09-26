@@ -1,6 +1,4 @@
 import { Player } from "@lottiefiles/react-lottie-player";
-import Image from "next/image";
-import { techstackData } from "@/data/techStackData";
 
 export default function About() {
   return (
