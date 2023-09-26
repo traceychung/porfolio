@@ -12,7 +12,7 @@ import {
   BiLogoGit,
 } from "react-icons/bi";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiFastapi } from "react-icons/si";
+import { SiFastapi, SiExpress } from "react-icons/si";
 
 export const techstackData = [
   {
@@ -105,5 +105,12 @@ export const techstackData = [
     image: BiLogoGit,
     tag: "P",
     color: "#f34e29",
+  },
+  {
+    id: 14,
+    title: "Express",
+    image: SiExpress,
+    tag: "P",
+    color: "#000000",
   },
 ];
