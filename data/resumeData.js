@@ -1,6 +1,32 @@
 export const resumeData = [
   {
-    id: 1,
+    id: 5,
+    startDate: "Oct 2024",
+    endDate: "Feb 2025",
+    company: "Smartrr",
+    title: "Support Engineer",
+    responsibilities: [
+      "Customized front-end code for subscription blocks on merchant sites, improving user interface and experience by implementing custom features, leading to a 10% increase in conversion rates for subscription sign-ups",
+      "Created and optimized SQL queries to generate detailed reports based on merchant requests, delivering accurate, actionable insights for merchants to improve decision-making and engagement strategies",
+      "Troubleshot and investigated customer issues by querying database logs to identify root causes, effectively resolving technical issues and improving incident response times through efficient troubleshooting methods",
+      "Provided technical support and consulting for merchants, answering ~35 inquiries per week and recommend tailored solutions from Smartrr’s suite of tools, contributing to a 30% increase in merchant satisfaction",
+    ],
+  },
+  {
+    id: 4,
+    startDate: "Dec 2023",
+    endDate: "Oct 2024",
+    company: "Edwards Lifesciences",
+    title: "Software Testing Engineer",
+    responsibilities: [
+      "Developed detailed test plans and test cases for both automated and manual testing of medical devices, ensuring comprehensive coverage of 45+ core functionalities",
+      "Identified, documented, and tracked over 115+ bugs through meticulous recording and thorough documentation, leading to a 20% reduction in bug recurrence",
+      "Conducted rigorous regression testing post-bug resolution, verifying the stability and integrity of 22+ software updates, ensuring optimal product stability and maintaining zero critical safety issues in the final release",
+      "Collaborated closely with cross-functional teams in an Agile environment to communicate testing results, provide feedback on product quality, and contribute to continuous improvement initiatives",
+    ],
+  },
+  {
+    id: 3,
     startDate: "Feb 2023",
     endDate: "Aug 2023",
     company: "Galvanize, Inc.",
@@ -25,7 +51,7 @@ export const resumeData = [
     ],
   },
   {
-    id: 3,
+    id: 1,
     startDate: "Dec 2020",
     endDate: "Nov 2021",
     company: "CJ Affiliate",
