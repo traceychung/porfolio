@@ -91,7 +91,7 @@ export default function Nav() {
             </li>
             <li>
               <a
-                href="/files/TraceyChung_2023Resume.pdf"
+                href="/files/TChung_2025Resume.pdf"
                 target="_blank"
                 className="block py-2 pl-3 pr-4 rounded md:p-0 text-pink-400 hover:bg-gray-100 md:hover:bg-transparent md:hover:text-pink-600">
                 Resume
